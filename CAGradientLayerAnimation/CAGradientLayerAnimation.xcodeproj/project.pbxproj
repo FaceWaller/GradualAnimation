@@ -15,6 +15,7 @@
 		8C776BFA2269F1BA0055B174 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C776BF92269F1BA0055B174 /* main.m */; };
 		8C776C042269F1BA0055B174 /* CAGradientLayerAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C776C032269F1BA0055B174 /* CAGradientLayerAnimationTests.m */; };
 		8C776C0F2269F1BA0055B174 /* CAGradientLayerAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C776C0E2269F1BA0055B174 /* CAGradientLayerAnimationUITests.m */; };
+		8C776C1E226A05470055B174 /* GradualChangeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C776C1D226A05470055B174 /* GradualChangeLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8C776C0A2269F1BA0055B174 /* CAGradientLayerAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAGradientLayerAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C776C0E2269F1BA0055B174 /* CAGradientLayerAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAGradientLayerAnimationUITests.m; sourceTree = "<group>"; };
 		8C776C102269F1BA0055B174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C776C1C226A05470055B174 /* GradualChangeLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GradualChangeLabel.h; sourceTree = "<group>"; };
+		8C776C1D226A05470055B174 /* GradualChangeLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradualChangeLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				8C776BEB2269F1B80055B174 /* AppDelegate.m */,
 				8C776BED2269F1B80055B174 /* ViewController.h */,
 				8C776BEE2269F1B80055B174 /* ViewController.m */,
+				8C776C1C226A05470055B174 /* GradualChangeLabel.h */,
+				8C776C1D226A05470055B174 /* GradualChangeLabel.m */,
 				8C776BF02269F1B80055B174 /* Main.storyboard */,
 				8C776BF32269F1BA0055B174 /* Assets.xcassets */,
 				8C776BF52269F1BA0055B174 /* LaunchScreen.storyboard */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C776BEF2269F1B80055B174 /* ViewController.m in Sources */,
+				8C776C1E226A05470055B174 /* GradualChangeLabel.m in Sources */,
 				8C776BFA2269F1BA0055B174 /* main.m in Sources */,
 				8C776BEC2269F1B80055B174 /* AppDelegate.m in Sources */,
 			);
