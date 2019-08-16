@@ -70,9 +70,10 @@ static CGFloat timeIntervalI= 2.f;
         [resArr addObject:colors[1]];
     }
     _colors = resArr;
-    for (int i = (int)self.colors.count; i > 0; i--) {
-        [self.fromValue addObject: @(2-i)];
-        [self.toValue addObject:@(self.colors.count - i)];
+    int count = (int)_colors.count;
+    for (int i = 0; i < count; i++) {
+        [self.fromValue addObject:@(i + 2 - count)];
+        [self.toValue addObject:@(i)];
     }
 
     if (self.text) {
